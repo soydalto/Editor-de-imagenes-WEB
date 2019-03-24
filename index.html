@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Editor</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<div class="preview">
+		<img src="afeitadora.png" id="img">
+	</div>
+	<div class="change">
+		<div>
+		    <label>Desenfoque</label><input type="range" id="blur" value="0"><br>
+		    <label>Contraste</label><input type="range" id="contrast" value="1"><br>
+		    <label>Escala de grises</label><input type="range" id="grayscale" value="0"><br>
+		    <label>Brillo</label><input type="range" id="brightness" value="100"><br>
+		    <label>Sepia</label><input type="range" id="sepia" value="0"><br>
+	    </div>
+	    <div>
+		    <label>hue-rotate</label><input type="range" id="hueRotate" value="0" max="360"><br>
+		    <label>invert</label><input type="range" id="invert" value="0"><br>
+		    <label>Opacity</label><input type="range" id="opacity" value="100"><br>
+		    <label>Saturate</label><input type="range" id="saturate" value="100"><br>
+	    </div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
